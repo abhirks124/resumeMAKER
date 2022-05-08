@@ -1,0 +1,62 @@
+{
+    "personalDetails": {
+        "firstName": "prakhar",
+        "lastName": "kapoor"
+    },
+    "contactDetails": {
+        "email_id": "kapoorprakhar99@gmail.com",
+        "phone": "7522828359",
+        "address": "11/308 Awas Vikas Colony,Yojana-3,Jhunsi,Allahabad"
+    },
+    "socialMedia": {
+        "facebook_link": "https://www.facebook.com/prakhar.kapoor.5249",
+        "instagram_link": "https://www.instagram.com/kapoorprakhar99",
+        "linkedin_link": "https://www.linkedin.com/in/kp99/",
+        "github_link": "https://github.com/kapoorp99"
+    },
+    "languages": {
+        "spoken_language1": "English",
+        "spoken_language2": "Hindi"
+    },
+    "projects": {
+        "project1": "Amazon Clone",
+        "project2": "Resume Maker"
+    },
+    "hobbies": {
+        "hobby1": "Coding",
+        "hobby2": "Reading Books",
+        "hobby3": "Dancing",
+        "hobby4": "Googling"
+    },
+    "peofessionalAndTechnicalSkills": {
+        "skill1": "c++",
+        "skill2": "HTML",
+        "skill3": "CSS",
+        "skill4": "Javascript",
+        "skill5": "Python"
+    },
+    "education": {
+        "highSchool": {
+            "score": "9 CGPA",
+            "high_school_year": "2016",
+            "high_school_board": "CBSE",
+            "high_school_schoolName": "Central Academy, Allahabad"
+        },
+        "intermediate": {
+            "score": "85%",
+            "intermediate_year": "2018",
+            "intermediate_board": "CBSE",
+            "intermediate_schoolName": "Central Academy, Allahabad"
+        },
+        "graduation": {
+            "score": "9 CGPA",
+            "graduation_year": "2021",
+            "graduation_collegeName": "University Of Allahabad",
+            "graduation_courseName": "BCA"
+        }
+    },
+    "experience": {
+        "experience1": "2 years at Microsoft",
+        "experience2": "1 year at Facebook"
+    }
+}

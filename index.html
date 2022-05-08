@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link href="css/index.css" rel="stylesheet">
+    <title>Resume Maker</title>
+</head>
+
+<body>
+    <!-- ************************-->
+    <div class="bg-light text-black jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Resume Maker</h1>
+            <p class="lead">This is a simple resume maker web application.</p>
+        </div>
+    </div>
+    <div class="container">
+        <form id="resume_details_form">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="text-center">Personal Details</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="firstName" placeholder="first name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="lastName" placeholder="last name">
+                        </div>
+                    </div>
+                    <h4 class="text-center">Contact Details</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="email_id" placeholder="email id">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="phone" placeholder="phone">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="address" placeholder="address (city,country)">
+                        </div>
+                    </div>
+                    <h4 class="text-center">Social Media</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="facebook_link" placeholder="facebook">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="instagram_link" placeholder="instagram">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="linkedin_link" placeholder="linkedin">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="github_link" placeholder="github">
+                        </div>
+                    </div>
+                    <h4 class="text-center">Languages</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="spoken_language1" placeholder="English">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="spoken_language2" placeholder="Hindi">
+                        </div>
+                    </div>
+                    <h4 class="text-center">Projects</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="project1" placeholder="project 1">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="project2" placeholder="project 2">
+                        </div>
+                    </div>
+                    <h4 class="text-center">Hobbies</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12 mt-1">
+                            <input type="text" class="form-control" id="hobby1" placeholder="hobby 1">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12 mt-1">
+                            <input type="text" class="form-control" id="hobby2" placeholder="hobby 2">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12 mt-1">
+                            <input type="text" class="form-control" id="hobby3" placeholder="hobby 3">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12 mt-1">
+                            <input type="text" class="form-control" id="hobby4" placeholder="hobby 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-center">Professional and Technical Skills</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="skill1" placeholder="skill 1">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="skill2" placeholder="skill 2">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="skill3" placeholder="skill 3">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="skill4" placeholder="skill 4">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="skill5" placeholder="skill 5">
+                        </div>
+                    </div>
+                    <h4 class="text-center">Education</h4>
+                    <h5 class="text-left">Hign School</h5>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="high_school" placeholder="percentage/C.G.P.A.">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="high_school_year" placeholder="year">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="high_school_board" placeholder="board">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="high_school_schoolName"
+                                placeholder="school">
+                        </div>
+                    </div>
+                    <h5 class="text-left">Intermediate</h5>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="intermediate" placeholder="percentage/C.G.P.A.">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="intermediate_year" placeholder="year">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="intermediate_board" placeholder="board">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="intermediate_schoolName"
+                                placeholder="school">
+                        </div>
+                    </div>
+                    <h5 class="text-left">Graduation</h5>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="graduation" placeholder="percentage/C.G.P.A.">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="graduation_year" placeholder="year">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="graduation_collegeName"
+                                placeholder="College / University / Institute">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control mt-2" id="graduation_courseName"
+                                placeholder="Course Name">
+                        </div>
+                    </div>
+                    <h4 class="text-center">Experience</h4>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="experience1" placeholder="experience 1">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="experience2" placeholder="experience 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" id="submit_form" class="btn btn-dark btn-lg mt-1 mb-4">Build Resume</button>
+            </div>
+        </form>
+    </div>
+    <!-- ************************-->
+
+    <!--footer_start -->
+    <footer class="bg-light text-black">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>About <b>Resume Maker</b></h4>
+                    <p>An awesome website for making impactful resumes.</p>
+                    <ul class="d-flex">
+                        <li class="d-flex flex-row mr-3"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li class="d-flex flex-row mr-3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="d-flex flex-row mr-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="d-flex flex-row mr-3"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="d-flex flex-row mr-3"><a href="#"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Find us</h4>
+                    <strong><i class="fas fa-map-marker-alt"></i></strong>Prayagraj-211019, Uttar Pradesh, India<br>
+                    <strong><i class="fas fa-phone"></i></strong> +91 7522828359<br>
+                    <strong><i class="fas fa-envelope"></i></strong> kapoorprakhar99@gmail.com<br>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center">
+            &copy; 2021 All rights are reserved.
+        </div>
+    </footer>
+    <!--footer_end -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
